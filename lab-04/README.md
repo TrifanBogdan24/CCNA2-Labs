@@ -39,7 +39,7 @@ Configurați STP a.î. sw01-agg să fie întotdeauna Root Bridge cu urmatoare pr
 
 - Router1:
 ```sh
-Router>
+Router> en
 Router# conf t
 Router(config)# int gig0/0
 Router(config-if)# ip addr 10.10.10.1 255.255.255.0
@@ -104,14 +104,14 @@ sw03-usr(config)#
 
 - sw01-agr:
 ```sh
-Switch(config)# hostname sw01-agr
-sw01-agr(config)#
+Switch(config)# hostname sw01-agg
+sw01-agg(config)#
 ```
 
 - sw02-agr:
 ```sh
-Switch(config)# hostname sw02-agr
-sw02-agr(config)#
+Switch(config)# hostname sw02-agg
+sw02-agg(config)#
 ```
 
 - Router1:
