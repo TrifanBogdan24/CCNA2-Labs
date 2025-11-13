@@ -116,6 +116,7 @@ Switch(config-if)# exit
 Switch(config)# ip routing
 
 Switch(config)# int gig0/1
+Switch(config-if)# no switchport 
 Switch(config-if)# ip address 111.111.111.5 255.255.255.252
 Switch(config-if)# no shut
 ```
